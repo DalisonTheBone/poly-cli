@@ -7,9 +7,9 @@ require('dotenv').config()
 
 // CLI Commands
 program
-    .option('-n, --nickname <nickname>', 'output extra debugging')
-    .option('-b, --botid <botid>', 'small pizza size')
-    .option('-c, --cookie <type>', 'flavour of pizza')
+    .option('-n, --nickname <nickname>', 'Sets a Nickname')
+    .option('-b, --botid <botid>', 'Sets a BotId')
+    .option('-c, --cookie <type>', 'Sets a Cookie')
 
 program.parse(process.argv);
 
