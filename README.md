@@ -17,6 +17,11 @@ node index.js
 -b, --botid <botid>       | Sets a BotId
 -c, --cookie <type>       | Sets a Cookie
 
+## ENV
+You can use this entirly threw commands but you can also set defaults inside of the .env file for if you dont want to put it in the command.
+This is useful for storing your cookie so you don't have to put it in the command every time.
+Id also suggest you set your Nickname here instead of in the command it's self as it just makes it easier to use the program.
+
 ## Example Usage
 ```powershell
 node index.js -b BotId -n Name -c cookie-here
